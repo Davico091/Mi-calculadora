@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btnDivision).setOnClickListener(this);
         findViewById(R.id.btnEqual).setOnClickListener(this);
         findViewById(R.id.btnDelete).setOnClickListener(this);
-        findViewById(R.id.btnParenthesis).setOnClickListener(this);
+        findViewById(R.id.btnParenthesisStart).setOnClickListener(this);
+        findViewById(R.id.btnParenthesisEnd).setOnClickListener(this);
     }
 
     @Override
